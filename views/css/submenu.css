@@ -1,0 +1,47 @@
+/* Nút Dropdown*/
+.sub_nut_dropdown {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+  }
+  /* Thiết lập vị trí cho thẻ div với class dropdown*/
+  .sub_dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Nội dung Dropdown */
+  .sub_noidung_dropdown {
+    /*Ẩn nội dung các đường dẫn*/
+    display: none;
+    position: relative;
+    left: 25px;
+    top: 2px;
+    background-color: #f1f1f1;
+    min-width: 200px;
+      z-index: 1;
+    border-radius: 10px 10px 10px 10px;
+
+  }
+  /* Thiết kế style cho các đường dẫn trong Dropdown */
+  .sub_noidung_dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+
+  }
+  /* thay đổi màu background khi hover vào đường dẫn */
+  .sub_noidung_dropdown a:hover {
+    background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  }
+  /* hiển thị nội dung dropdown khi hover */
+  .sub_dropdown:hover .sub_noidung_dropdown {
+    display: block;
+  }
+  /* Thay đổi màu background cho nút khi được hover */
+  .sub_dropdown:hover .sub_nut_dropdown {
+
+    background-color: #ddd;
+  }

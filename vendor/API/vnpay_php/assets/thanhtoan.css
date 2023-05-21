@@ -1,0 +1,203 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('../assets/img/thanhtoan7.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('../assets/img/thanhtoan6.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-box{
+    position: relative;
+    width: 600px;
+    height: auto;
+    display: flex;
+    background: transparent;
+    border: aquamarine solid 2px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2rem;
+    color:aquamarine;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 450px;
+    border-bottom: 2px solid aquamarine;
+}
+.input-box-3{
+    position: relative;
+    margin: 30px 0;
+    width: 450px;
+}
+.input-box-3 label{
+    position: relative;
+    top: 50%;
+    left: 5px;
+    color:aquamarine;
+    font-size: 1em;
+}
+.input-box-3 a{
+    position: relative;
+    top: 50%;
+    left: 5px;
+    color:aquamarine;
+    font-size: 1em;
+}
+.input-box-2{
+    position: relative;
+    margin: 30px 0;
+    width: 450px;
+    border-bottom: 2px solid aquamarine;
+}
+.input-box-2 select{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color:#fff;
+}
+.input-box-2 label{
+    position: relative;
+    top: 50%;
+    left: 5px;
+    color:aquamarine;
+    font-size: 1em;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color:aquamarine;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label{
+    top: -5px;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color:#fff;
+}
+.input-box-2 textarea{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color:#fff;
+}
+.input-box-2 option{
+    width: 100%;
+    height: 60px;
+    color:black;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+}
+.input-box ion-icon{
+    position: absolute;
+    right: 8px;
+    color: aquamarine;
+    font-size: 1.2em;
+    top: 25px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3px;
+
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    color:aqua;
+    text-decoration:underline;
+}
+button
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background:chartreuse;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    margin: 25px 0 10px;
+    font-size: .9rem;
+    color: aquamarine;
+    text-align: center;
+}
+.register p {
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: 600;
+
+}
+.register  a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+}
+.register a:hover{
+    color:aqua;
+    text-decoration:underline;
+}
